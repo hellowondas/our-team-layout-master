@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+:root {
+  --pale-white: #FFFEFE;
+  --light-grayish-blue: #F3F4F6;
+  --dark-blue-gray: #394150;
+  --black: #000000;
+  --deep-indigo: #263FA9;
+  --aqua: #86E7D4;
+  --baby-blue: #9DC4F8;
+  --pale-purple: #C1B6F8;
+  --soft-pink: #EDACD2;
+  --light-peach: #F8D8B0;
+}
+
+
+body {
+  max-width: 40em;
+  min-height: 100vh;
+}
