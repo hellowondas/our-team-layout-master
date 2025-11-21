@@ -32,7 +32,8 @@ body {
 
 .team-wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 1fr);
+  /* grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)) */
+  grid-template-columns: repeat(auto-fit minmax(300px, 1fr));
   border-radius: 0.8rem;
   overflow: hidden;
 }
@@ -70,8 +71,28 @@ body {
 }
 
 
-.team-member {
+.member-liam {
   background-color: var(--pale-purple);
+}
+
+
+.member-sophia {
+  background-color: var(--soft-pink);
+}
+
+
+.member-ethan {
+  background-color: var(--baby-blue);
+}
+
+
+.member-isabella {
+  background-color: var(--light-peach);
+}
+
+
+.member-noah {
+  background-color: var(--aqua);
 }
 
 
@@ -113,4 +134,56 @@ body {
 
 .info p {
   font-size: 0.8rem;
+}
+
+
+.team-member {
+  display: block;
+}
+
+
+.see-more-box {
+  display: flex;
+  min-height: 280px;
+  background-color: var(--light-grayish-blue);
+  align-items: flex-end;
+}
+
+
+.see-more {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  margin: 0 0 30px 31px;
+}
+
+
+.see-more p {
+  font-size: 0.9rem;
+  color: var(--black);
+}
+
+@media (min-width: 56em) {
+  body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width: none;
+    min-height: 100vh;
+  }
+  
+  
+  .team-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+  
+  
+  
+  
+  
+  
+  
 }
