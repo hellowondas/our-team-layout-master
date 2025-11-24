@@ -4,7 +4,7 @@
 The Design was created with minimum of the following width:
 - Mobile: 640px
 - Tablet: 1024px
-- Desktop: 1280px
+- Desktop: 1200px
 
 ## The Colors
 
