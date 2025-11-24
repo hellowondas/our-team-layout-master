@@ -34,7 +34,7 @@ This project is a pixel-perfect solution to the [Meet The Team Section](https://
 ## 🧠 What I Learned
 
 - How to compress local images from `.jpeg` to `webp` to optimize web perfoma
-- Advanced responsive layout techniques with flexbox and media queries
+- Responsive layout techniques css grid and media queries
 
 ## 🙏 Acknowledgements
 
